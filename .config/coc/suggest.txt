@@ -1,0 +1,7 @@
+coun|country_code|around
+en|endif|around
+NERDTree|NERDTreeFind|around
+NERDTreeTo|NERDTreeToggle|around
+useState|useState|tsserver-typescript
+useSta|useState|tsserver-typescript
+useS|useState|tsserver-javascript
