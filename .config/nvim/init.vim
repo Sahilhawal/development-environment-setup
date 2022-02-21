@@ -21,6 +21,10 @@ Plug 'morhetz/gruvbox'
 
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install --frozen-lockfile --production',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+Plug 'lukas-reineke/indent-blankline.nvim'
 " Initialize plugin system
 call plug#end()
 
@@ -87,9 +91,6 @@ set shiftwidth=2
 " always uses spaces instead of tab characters
 set expandtab
 set number 
-"let g:gruvbox_termcolors=16
-"let g:gruvbox_contrast_dark="hard"
-let g:gruvbox_improved_strings=0
 colorscheme gruvbox
 set background=dark
 
