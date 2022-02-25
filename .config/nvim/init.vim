@@ -209,8 +209,8 @@ omap if <Plug>(coc-funcobj-i)
 omap af <Plug>(coc-funcobj-a)
 
 " Use <C-d> for select selections ranges, needs server support, like: coc-tsserver, coc-python
-nmap <silent> <C-d> <Plug>(coc-range-select)
-xmap <silent> <C-d> <Plug>(coc-range-select)
+"nmap <silent> <C-d> <Plug>(coc-range-select)
+"xmap <silent> <C-d> <Plug>(coc-range-select)
 
 " Use `:Format` to format current buffer
 command! -nargs=0 Format :call CocAction('format')
@@ -245,3 +245,10 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 nmap <leader>gs :G<CR>
 nmap <leader>gj :diffget //3<CR>
 nmap <leader>gf :diffget //2<CR>
+set mouse=a 
+
+" For nerdtree tab navigation
+map <S-Right> :tabn<CR>
+map <S-Left>  :tabp<CR>
+nnoremap <leader>x  :!chmod +x %<CR>
+nnoremap <silent> <C-f> :silent !tmux neww 'sh tmux-sessionizer'<CR>

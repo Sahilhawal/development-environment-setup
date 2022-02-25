@@ -114,3 +114,5 @@ eval "$(rbenv init -)"
 eval "$(nodenv init -)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+bindkey -s ^f "sh tmux-sessionizer\n"
