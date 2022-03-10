@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/sahilhawal/.oh-my-zsh"
 source ~/Documents/GitHub/viewthespace/script/dev-env-helpers
+export PATH=$PATH:/Users/username/npm-global/bin
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,

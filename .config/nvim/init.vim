@@ -25,6 +25,7 @@ Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'tpope/vim-surround'
 " Initialize plugin system
 call plug#end()
 

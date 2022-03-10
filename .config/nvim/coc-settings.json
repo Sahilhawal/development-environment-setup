@@ -1,4 +1,5 @@
 {
+  "diagnostic.refreshOnInsertMode": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
